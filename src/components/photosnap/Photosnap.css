@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainPhotosnap{
+     width: 100%;
+     overflow-x: hidden;
+}
+
+/************* SECCION 1 *************/
+
+.seccion1Photosnap {
+    margin-top: 80px;
+}
+
+.contenedorImagenPhotosnap{
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.divReverse{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+}
+
+/* CSS PARA BORDER GRANDIENT */
+
+.div1Seccion1Photosnap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 72px 33px !important;
+    background-color: black;
+    position: relative;
+}
+
+.div1Seccion1Photosnap::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    width: 35%;
+    height: 6px;
+    background: linear-gradient(to right, #F6BC94, #B97199, #3662f5);
+}
+
+/**/
+
+.h2Div1Seccion1Photosnap {
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.pDiv1Seccion1Photosnap {
+    color: rgb(148, 148, 148);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 5px;
+}
+
+.btnDiv1Seccion1Photosnap {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.div4-5Seccion1Photosnap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 72px 33px !important;
+}
+
+.h2Div4-5Seccion1Photosnap {
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.pDiv4-5Seccion1Photosnap {
+    color: rgb(148, 148, 148);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 5px;
+}
+
+.btnDiv4-5Seccion1Photosnap {
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.imgFlechaPhotosnap{
+   width: 40px;
+   margin: 0px 20px;
+}
+
+/************* SECCION 2 *************/
+
+.divInfoSeccion2{
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ height: 400px;
+ cursor: pointer;
+ position: relative;
+
+}
+
+.divInfoSeccion2::after {
+content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+width: 0;
+height: 5px;
+background:  linear-gradient(to right, #F6BC94, #B97199, #3662f5);
+transition: width 0.4s ease; /* Añadimos una transición para el efecto de carga */
+}
+
+.divInfoSeccion2:hover::after {
+width: 100%; /* Al hacer hover, el borde inferior se expandirá al 100% */
+}
+
+.imgInfoSeccion2{
+    height: 450px !important;
+    transition: all .5s;
+}
+
+.imgInfoSeccion2:hover{
+    transform: scale(1.03);
+}
+
+.divINDivInfoSeccion2{
+ bottom: 0;
+ height: 60%;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ position: absolute;
+ width: 100%; background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.662));
+}
+
+.divInfoName{
+    margin: 0px 40px;
+}
+
+.h5InfoSeccion2{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0;
+    font-size: 18px;
+}
+
+.p1InfoSeccion2{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.divReadInfo{
+    border-top: 2px  solid  rgba(255, 255, 255, 0.383);
+    padding: 20px 0px;
+    margin: 0px 40px;
+}
+
+.p2InfoSeccion2{
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+/************* SECCION 3 *************/
+
+.pDivSeccion3{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.h6DivSeccion3{
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+
+    /************* SECCION 1 *************/
+
+.imgSeccion1Photosnap{
+   width: 1000px !important;
+}
+.divReverse{
+    display: flex;
+    flex-direction: row;
+}
+.imgComputadora{
+    width: 1500px !important;
+    padding-left: 350px;
+}
+
+.div1Seccion1Photosnap {
+    height: 600px;
+    padding: 72px 100px !important;
+}
+
+.div4-5Seccion1Photosnap {
+    height: 600px;
+    padding: 72px 100px !important;
+    justify-content: center;
+}
+
+    
+/************* SECCION 2 *************/
+
+.divInfoSeccion2{
+    height: 100%;
+   }
+   
+   .imgInfoSeccion2{
+       height: 100% !important;
+   }
+
+   .imgInfoSeccion2:hover{
+    height: 100% !important;
+}
+
+/************* SECCION 3 *************/
+
+.pDivSeccion3{
+    width: 75%;
+}
+
+}
+
+@media screen and (min-width: 1000px) {
+
+/************* SECCION 1 *************/
+
+    .div1Seccion1Photosnap {
+        height: 800px;    
+    }
+
+    .div4-5Seccion1Photosnap {
+        height: 800px;    
+    }
+
+       
+/************* SECCION 2 *************/
+
+.divInfoSeccion2{
+    height: 500px !important;
+   }
+   
+   .imgInfoSeccion2{
+       height: 500px !important;
+   }
+
+   .imgInfoSeccion2:hover{
+    height: 500px !important;
+}
+}
+
+@media screen and (min-width: 1400px) { 
+
+    /************* SECCION 1 *************/
+
+    .seccion1Photosnap {
+        margin: 80px 80px 0px 80px;
+    }
+    .seccion2Photosnap {
+        margin: 0px 80px;
+    }
+
+    .div1Seccion1Photosnap {
+        height: auto;    
+    }
+
+    .div1Seccion1Photosnap::before {
+        top: 25%;
+        left: 0%;
+        width: 6px;
+        height: 350px;
+        background-color: #ff0000;
+        background: linear-gradient(to top, #F6BC94, #B97199, #3964ef);
+    }
+
+
+     .imgComputadora{
+        width: 1500px !important;
+        padding-left: 0px;
+    }
+
+    .h2Div1Seccion1Photosnap {
+        letter-spacing: 3px;
+        font-size: 40px;
+    }
+
+    
+.div4-5Seccion1Photosnap {
+    height: auto;   
+}
+
+.h2Div4-5Seccion1Photosnap {
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+       
+/************* SECCION 3 *************/
+
+.divSeccion3{
+    width: 80%;
+}
+
+.imgInfinito{
+    height: 72px;
+    padding: 18px;
+}
+
+.pDivSeccion3{
+    width: 100%;
+}
+
+}

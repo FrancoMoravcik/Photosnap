@@ -1,0 +1,98 @@
+[
+    {
+      "id": "1",
+      "name": "The Mountains",
+      "by": "John Appleseed",
+      "img": "img/mountains.webp"
+    },
+    {
+      "id": "2",
+      "name": "Sunset Cityscapes",
+      "by": "Benjamin Cruz",
+      "img": "img/newyork.webp"
+    },
+    {
+      "id": "3",
+      "name": "18 Days Voyage",
+      "by": "Alexei Borodin",
+      "img": "img/persona.webp"
+    },
+    {
+        "id": "4",
+        "name": "Architecturals",
+        "by": "Samantha Brooke",
+        "img": "img/edificio.webp"
+      },
+      {
+        "id": "5",
+        "name": "World Tour 2019",
+        "by": "Timothy Wagner",
+        "img": "img/lagoyMontaña.webp"
+      },
+      {
+        "id": "6",
+        "name": "Unforeseen Corners",
+        "by": "William Malcolm",
+        "img": "img/arbolAtardecer.webp"
+      },   {
+        "id": "7",
+        "name": "King of Africa",
+        "by": "Tim Hillenburg",
+        "img": "img/reyLeon.webp"
+      },
+      {
+        "id": "8",
+        "name": "The Trip to Nowhere",
+        "by": "Felicia Rourke",
+        "img": "img/reflejoArbol.webp"
+      },
+      {
+        "id": "9",
+        "name": "Rage of The Sea",
+        "by": "Mohammed Abdul",
+        "img": "img/reflejoSolEnMar.webp"
+      },
+      {
+        "id": "10",
+        "name": "Running Free",
+        "by": "Michelle",
+        "img": "img/CaballoLibre.webp"
+      },
+      {
+        "id": "11",
+        "name": "Behind The Waves",
+        "by": "Samantha Brooke",
+        "img": "img/olas.webp"
+      },
+      {
+        "id": "12",
+        "name": "Calm Waters",
+        "by": "Samantha Broole",
+        "img": "img/montañaAtardecer.webp"
+      },
+      {
+        "id": "13",
+        "name": "The Milky Way",
+        "by": "Benjamin Cruz",
+        "img": "img/viaLactea.webp"
+      },
+      {
+        "id": "14",
+        "name": "Night at The Dark Forest",
+        "by": "Mohammed Abdul",
+        "img": "img/bosque.webp"
+      },
+      {
+        "id": "15",
+        "name": "Somwarpet's Beauty",
+        "by": "Michelle",
+        "img": "img/floresAmarillas.webp"
+      },
+      {
+        "id": "16",
+        "name": "Land of Dreams",
+        "by": "William Malcolm",
+        "img": "img/casaEnMontaña.webp"
+      }
+  ]
+  

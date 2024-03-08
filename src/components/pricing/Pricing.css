@@ -1,0 +1,416 @@
+.mainPricing{
+    overflow: hidden;
+}
+
+/* SECCION 2 */
+
+.seccion2Pricing {
+    margin: 100px 0px;
+} 
+
+.spanDivSeccion2Pricing{
+    padding: 10px;
+    font-weight: 600;
+    color: black;
+}
+
+.divContainerPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(231, 230, 230, 0.539);
+    width: 85%;
+    margin: 30px 8%;
+    padding: 40px 30px;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.143);
+}
+
+.divPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div1DivPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h3div1DivPrice {
+    color: black;
+    font-weight: 600;
+}
+
+.pdiv1DivPrice {
+    text-align: center;
+    color: rgb(107, 107, 107);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.h2div1DivPrice {
+    color: black;
+    font-size: 33px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+.divBtnPick {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnPick {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 90%;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.btnPick:hover {
+    background-color: rgb(227, 227, 227);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 90%;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.divMedio {
+    background-color: black;
+    position: relative;
+}
+
+.divMedio::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to right, #F6BC94, #B97199, #3662f5);
+}
+
+.h3Medio {
+    color: white;
+}
+
+.h2Medio {
+    color: white;
+}
+
+.pMedio {
+    color: rgb(148, 148, 148);
+}
+
+.btnMedio {
+    background-color: white;
+    color: black;
+}
+
+/* SECCION 3 */
+
+.seccion3Pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2Seccion3Pricing{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 60px 0px;
+}
+
+.p1Seccion3Pricing{ 
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.divANone{
+    width: 90%;
+}
+
+.divNone{
+    display: none;
+}
+
+.p2Seccion3Pricing{
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 80px;
+    text-align: center;
+}
+
+.hrPricing {
+    width: 90%;
+    color: black;
+    opacity: 1;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.hrPricing2{
+    width: 90%;
+    color: rgb(198, 198, 198);
+    opacity: 1;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.p3Seccion3Pricing{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.568);
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 80px;
+    text-align: center;
+}
+
+.divANone2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divNone2{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.divTildes{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+    .divPrice {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .div1DivPrice {
+        align-items: flex-start;
+        width: 50%;
+    }
+
+    .pdiv1DivPrice {
+        text-align: start;
+        padding: 0;
+    }
+
+    .div2DivPrice {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .divBtnPick {
+        justify-content: flex-start;
+    }
+
+    .btnPick {
+        width: 50%;
+    }
+
+    .btnPick:hover {
+        width: 50%;
+    }
+
+
+    /* SECCION 3 */
+
+.h2Seccion3Pricing{
+    margin: 60px 0px;
+}
+
+.divNone{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.hrPricing {
+    display: flex;
+}
+
+.hrPricing2{
+    display: flex;
+}
+
+
+.p3Seccion3Pricing{
+    width: 80px;
+    text-align: center;
+}
+
+.divANone2{
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divNone2{
+    display: none;
+}
+
+.divTildes{
+    width: 50%;
+    justify-content: space-between;
+}
+
+.tildes{
+    width: 80px;
+    text-align: center;
+}
+}
+
+
+@media screen and (min-width: 1400px) {
+
+     /************* SECCION 1 ****************/  
+  .div1Seccion1Pricing::before {
+        top: 25%;
+        left: 0%;
+        width: 6px;
+        height: 250px;
+        background-color: #ff0000;
+        background: linear-gradient(to top, #F6BC94, #B97199, #3964ef);
+    }
+
+    .imgSeccion1Pricing {
+        transform: scale(1.3);
+    } 
+    
+    .divReversePricing {
+        height: 550px;
+    }
+
+      /************* SECCION 2 ****************/  
+     
+
+    .divRow {
+        align-items: center;
+    }
+
+    .divContainerPrice {
+        width: 350px;
+        margin: 20px;
+        height: 350px;
+        justify-content: center;
+    }
+
+    .divPrice {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .divMedio {
+        height: 400px;
+    }
+
+    .div1DivPrice {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .pdiv1DivPrice {
+        text-align: center;
+        padding: 3px 0px;
+    }
+
+    .div2DivPrice {
+        align-items: center;
+    }
+
+    .divBtnPick {
+        justify-content: center;
+    }
+
+    .btnPick {
+        width: 80%;
+    }
+
+    .btnPick:hover {
+        width: 80%;
+    }
+
+    /* SECCION 3 */
+
+    .seccion3Pricing{
+   width: 50%;
+   margin: auto;
+    }
+    
+}
+
+
+/* INTERRUPTOR */
+
+.interruptor {
+    position: relative;
+    width: 60px;
+    height: 30px;
+  }
+  
+  .interruptor-checkbox {
+    display: none;
+  }
+  
+  .interruptor-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 30px;
+    background-color: #d2d2d2;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .interruptor-label:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #000000c3;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  
+  .interruptor-checkbox:checked + .interruptor-label {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .interruptor-checkbox:checked + .interruptor-label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+    background-color: white;
+  }

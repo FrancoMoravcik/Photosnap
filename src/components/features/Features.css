@@ -1,0 +1,116 @@
+.mainFeatures{
+    overflow: hidden;
+}
+
+/* SECCION1 */
+
+.seccion1Features{
+    margin-top: 80px;
+}
+
+.h1Div1Seccion1Photosnap{
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+/* SECCION 3 */
+
+.seccion3Features{
+    background-image: url('C:\Users\giuliana\Documents\programacionReactJs\frontEndMentor\photoSnap\photosnap\public\img\granCañon.jpg');
+    background-size: cover; 
+    background-position: left center;  
+    height: 240px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.seccion3Features::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    width: 35%;
+    height: 6px;
+    background: linear-gradient(to right, #F6BC94, #B97199, #3662f5);
+}
+
+.divSeccion3Features{
+    width: 100%;
+    padding: 30px;
+}
+
+.pDiv2Seccion3Features{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+
+/************* SECCION 3 *************/
+
+.seccion3Features{
+    height: 300px;
+}
+
+.divSeccion3Features{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pDiv2Seccion3Features{
+    width: 35%;
+}
+
+
+}
+
+@media screen and (min-width: 1000px) {
+    /************* SECCION 3 *************/
+    
+    .seccion3Features{
+        height: 250px;
+    }
+    
+    .pDiv2Seccion3Features{
+        margin: 0 30px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    /************* SECCION 1 *************/
+    
+    .seccion1Features{
+        margin: 80px 80px 0px 80px;
+    }
+    
+    .div1Seccion1Features::before {
+        top: 25%;
+        left: 0%;
+        width: 6px;
+        height: 250px;
+        background-color: #ff0000;
+        background: linear-gradient(to top, #F6BC94, #B97199, #3964ef);
+    }
+    
+    /************* SECCION 3 *************/
+    
+    .divSeccion3Features{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .pDiv2Seccion3Features{
+        width: 30%;
+    }
+    
+    
+    }
