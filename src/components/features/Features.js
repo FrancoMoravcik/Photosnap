@@ -61,6 +61,7 @@ const Features = () => {
 
 
       <section className='seccion3Features'>
+        <img className='img-GranCañon' src="img/granCañon.jpg" alt=''></img>
         <div className='divSeccion3Features'>
           <p className='pDiv2Seccion3Features'>WE’RE IN BETA. GET YOUR INVITE TODAY!</p>
           <button className='btnDiv1Seccion1Photosnap my-3'>GET AN INVITE<img className='imgFlechaPhotosnap' src='img/flechaBlanca.png' alt=''></img></button>

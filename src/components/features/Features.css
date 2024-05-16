@@ -17,15 +17,18 @@
 /* SECCION 3 */
 
 .seccion3Features{
-    background-image: url('C:\Users\giuliana\Documents\programacionReactJs\frontEndMentor\photoSnap1\photosnap\public\img\granCañon.jpg');
-    background-size: cover; 
-    background-position: left center;  
     height: 240px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+}
+.img-GranCañon{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 .seccion3Features::before {
